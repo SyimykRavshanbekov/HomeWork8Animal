@@ -21,11 +21,11 @@ public class Dog implements Animal {
 
     @Override
     public void animalPlus() {
-        System.out.println("it adamdyn dosu");
+        System.out.println("plus: it adamdyn dosu");
     }
 
     @Override
     public void animalMinus() {
-        System.out.println("no minus");
+        System.out.println("minus: no minus");
     }
 }

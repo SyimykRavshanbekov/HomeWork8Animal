@@ -16,9 +16,6 @@ import peaksoft.service.Animal;
 @Component
 public class Person {
     private Animal animal;
-   @Value("${person.name}")
     private String name;
-    @Value("${person.age}")
     private int age;
-
 }
